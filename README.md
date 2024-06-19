@@ -71,7 +71,7 @@ During this project, I reinforced my knowledge of form validation and responsive
   <button type="submit">Send</button>
 </form>
 
-#Continued Development
+###Continued Development
 
 In future projects, I plan to focus on
 
@@ -79,15 +79,15 @@ In future projects, I plan to focus on
 .Improving form validation using JavaScript
 .Integrating a backend to handle form submissions
 
-#Useful Resources
+###Useful Resources
 
 .MDN Web Docs - This helped me understand form validation
 
 .CSS Tricks - For layout techniques
 
-#Author
+###Author
 Frontend Mentor - @asuronemeri 
 
-#Acknowledgments
+###Acknowledgments
 
 I would like to thank Frontend Mentor for providing such a great platform for honing my front-end skills.
