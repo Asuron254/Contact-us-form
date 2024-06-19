@@ -46,11 +46,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library (if applicable)
-- [Next.js](https://nextjs.org/) - React framework (if applicable)
-- [Styled Components](https://styled-components.com/) - For styles (if applicable)
-
+- JavaScript 
 ### What I Learned
 
 During this project, I reinforced my knowledge of form validation and responsiveness. Here are some code snippets that I am proud of:
@@ -75,3 +71,23 @@ During this project, I reinforced my knowledge of form validation and responsive
   <button type="submit">Send</button>
 </form>
 
+Continued Development
+
+In future projects, I plan to focus on
+
+.Enhancing accessibility features
+.Improving form validation using JavaScript
+.Integrating a backend to handle form submissions
+
+Useful Resources
+
+.MDN Web Docs - This helped me understand form validation
+
+.CSS Tricks - For layout techniques
+
+.Author
+Frontend Mentor - @asuronemeri 
+
+Acknowledgments
+
+I would like to thank Frontend Mentor for providing such a great platform for honing my front-end skills.
