@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="first-name">First Name<span> *</span></label>
+                <input type="text" id="first-name" name="first-name" required>
+                <small class="error-message">This field is required</small>
+            </div>
+            <div class="form-group">
+                <label for="second-name">Second Name<span> *</span></label>
+                <input type="text" id="second-name" name="second-name" required>
+                <small class="error-message">This field is required</small>
+            </div>
+            <div class="form-group">
+                <label>Quary Type<span> *</span></label>
+                <div class="radio-group">
+                    <div class="radio-item">
+                        <input type="radio" id="support-inquiry" name="inquiry-type" value="support" required>
+                        <label for="support-inquiry">
+                            <span class="custom-radio"></span>
+                            Support Inquiry
+                        </label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" id="general-inquiry" name="inquiry-type" value="general" required>
+                        <label for="general-inquiry">
+                            <span class="custom-radio"></span>
+                            General Inquiry
+                        </label>
+                    </div>
+                </div>
+                <small class="error-message">This field is required</small>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address<span> *</span></label>
+                <input type="email" id="email" name="email" required>
+                <small class="error-message">This field is required</small>
+            </div>
+            <div class="form-group">
+                <label for="message">Message <span> *</span></label>
+                <textarea id="message" name="message" required></textarea>
+                <small class="error-message">This field is required</small>
+            </div>
+            <div class="form-group custom-checkbox">
+                <input type="checkbox" id="consent" name="consent" required>
+                <label for="consent"><span class="custom-checkbox"></span>I consent to being contacted by the team</label>
+                <small class="error-message">This field is required</small>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div> 
+            <div class="success-msg">
+                <div class="row">
+                    <img src="./images/icon-success-check.svg" alt="">
+                    <h2>Message Sent!</h2>
+                </div>
+                <p>Thanks for completing the form. We'll be in touch soon!</p>
+            </div>
+            <footer>
+                <div class="attribution">
+                    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+                    Coded by <a href="https://github.com/ajkun55/Contact-form">Emeri Asuron</a>.
+                </div>
+            </footer>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
